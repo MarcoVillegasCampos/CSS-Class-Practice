@@ -79,3 +79,11 @@ fieldset > span  {
     cursor: pointer;
     background-color: #df706c;
 }
+
+.special{
+    width: 500px;
+}
+
+label[for="userPasswordConfirmation"]{
+    color: blue;
+}
