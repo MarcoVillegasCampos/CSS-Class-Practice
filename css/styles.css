@@ -1,0 +1,107 @@
+h1{
+    color: red;
+
+}
+nav{
+    color: blue;
+
+}
+
+/*
+3 selectors
+element name div, span, etc
+Class name .nameofClass
+Id nameofId
+*/
+
+* {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    font-size: 15px;
+    color: rgb(110, 33, 182);
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+h1{
+    background-color: cadetblue;
+    margin: 0;
+    padding: 20px;
+    color: white;
+
+}
+
+fieldset{
+    border: 2px dashed rgb(224, 11, 11); 
+    margin: 20px;
+    padding: 20 px;
+
+}
+
+label{
+    display: block;
+}
+
+fieldset> span {
+    border:1px solid #6278B0 ;
+    color: #42579C;
+    padding: 20px 40px;
+    display: block;
+    background: url('./../images/infoicon.png') no-repeat center left #CCE9F8;
+    text-align: center;
+}
+
+.formElement{
+    padding: 5px 10px;
+    width: 300px;
+    margin-bottom: 15px;
+
+}
+
+#cancelForm{
+    padding: 5px;
+    text-align: center;
+    background-color: #D9534F;
+    font-size: 1.3em;
+    color:white;
+    border: 0;
+    
+}
+#submitForm{
+    padding: 5px;
+    text-align: center;
+    background-color:#56C56F;
+    font-size: 1.3em;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+
+    
+}
+#submitForm:hover{
+    cursor: pointer;
+    background-color: #88e29d;
+
+}
+
+#cancelForm:hover{
+    cursor: pointer;
+    background-color:#df706c;
+
+    
+}
+
+input.formElement#userName{
+    width: 500px;
+}
+
+label[for="userPasswordConfirmation"]{
+    color: blue;
+    
+}
