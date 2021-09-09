@@ -105,3 +105,29 @@ label[for="userPasswordConfirmation"]{
     cursor: pointer;
     background-color: grey;
 }
+
+h1{
+    position: fixed;
+    width: 100%;
+    /*
+    top right left bottom
+    */
+}
+
+nav{
+    padding-top: 80px;
+}
+
+fieldset{
+    position: relative;
+    /*
+    height: 200px;
+    overflow: auto; 
+    */
+}
+
+span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
