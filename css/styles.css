@@ -1,107 +1,124 @@
-h1{
-    color: red;
-
-}
-nav{
-    color: blue;
-
-}
-
 /*
-3 selectors
-element name div, span, etc
-Class name .nameofClass
-Id nameofId
+    3 selectors:
+    - Element name div, span, etc
+    - Class name .nameOfClass
+    - Id #nameOfId
+    # > . > element
 */
 
 * {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
 
 body{
     font-size: 15px;
-    color: rgb(110, 33, 182);
+    color: #4F545F;
     margin: 0;
     padding: 0;
-
-
-
-
 }
+
 h1{
-    background-color: cadetblue;
+    background-color: #55B3C5;
     margin: 0;
     padding: 20px;
     color: white;
-
 }
 
 fieldset{
-    border: 2px dashed rgb(224, 11, 11); 
+    border: 2px dashed #dddddd;
     margin: 20px;
-    padding: 20 px;
+    padding: 20px;
+}
 
+legend{
+    font-size: 1.3em;
+    font-weight: 900;
 }
 
 label{
     display: block;
 }
 
-fieldset> span {
-    border:1px solid #6278B0 ;
+fieldset > span  {
+    border: 1px solid #6278B0;
     color: #42579C;
     padding: 20px 40px;
     display: block;
     background: url('./../images/infoicon.png') no-repeat center left #CCE9F8;
-    text-align: center;
+    background-position: 15px 15px;
 }
 
 .formElement{
     padding: 5px 10px;
     width: 300px;
     margin-bottom: 15px;
-
 }
 
-#cancelForm{
-    padding: 5px;
+#cancelForm, #submitForm{
+    padding: 10px 20px;
     text-align: center;
     background-color: #D9534F;
     font-size: 1.3em;
-    color:white;
-    border: 0;
-    
-}
-#submitForm{
-    padding: 5px;
-    text-align: center;
-    background-color:#56C56F;
-    font-size: 1.3em;
-    color:white;
+    color: white;
     border: 0;
     border-radius: 5px;
-
-    
 }
+
+#submitForm{
+    background-color: #56C56F;
+}
+
 #submitForm:hover{
     cursor: pointer;
     background-color: #88e29d;
-
 }
 
 #cancelForm:hover{
     cursor: pointer;
-    background-color:#df706c;
-
-    
+    background-color: #df706c;
 }
 
-input.formElement#userName{
+.special{
     width: 500px;
 }
 
 label[for="userPasswordConfirmation"]{
     color: blue;
-    
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(172, 172, 172);
+    color: white;
+}
+
+.menu > li{
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.menu > li:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+h1{
+    position: fixed;
+    width: 100%;
+}
+
+fieldset{
+    position: relative;
+    overflow: auto;
+
+}
+
+span{
+    position: absolute;
+    bottom:0;
+    right:0;
+
+}
+
