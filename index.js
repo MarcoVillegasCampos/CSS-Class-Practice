@@ -1,4 +1,4 @@
-console.log("This is linked correctly!");
+/*console.log("This is linked correctly!");
 
  let listElements= document.querySelectorAll("li");
 
@@ -25,9 +25,23 @@ console.log ( menu.innerHTML) += "<li> Logout </li>";
 /*
 ${new tex here} to avoid using the + symbol in Strings
 */
+function test(event){
+
+    console.log(element);
+    alert("you clicked over ${element.textContent}");
 
 
+ 
+
+}
+
+/*alert ("You clicked over de HOME");*/
 
 
+let listElements = document.querySelectorAll("li");
+
+for(let i = 0; i < listElements.length; i++){
+listElements[i].addEventListener( "click", test);
 
 
+}
