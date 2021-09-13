@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8fb9ee8c5aaeb80aff05b875863033cfbb0d8127
 /*
     3 selectors:
     - Element name div, span, etc
     - Class name .nameOfClass
     - Id #nameOfId
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8fb9ee8c5aaeb80aff05b875863033cfbb0d8127
     # > . > element
 */
 
@@ -107,18 +115,41 @@ label[for="userPasswordConfirmation"]{
 h1{
     position: fixed;
     width: 100%;
+<<<<<<< HEAD
+=======
+    /*
+    top right left bottom
+    */
+}
+
+nav{
+    padding-top: 80px;
+>>>>>>> 8fb9ee8c5aaeb80aff05b875863033cfbb0d8127
 }
 
 fieldset{
     position: relative;
+<<<<<<< HEAD
     overflow: auto;
 
+=======
+    /*
+    height: 200px;
+    overflow: auto; 
+    */
+>>>>>>> 8fb9ee8c5aaeb80aff05b875863033cfbb0d8127
 }
 
 span{
     position: absolute;
+<<<<<<< HEAD
     bottom:0;
     right:0;
 
 }
 
+=======
+    bottom: 0;
+    right: 0;
+}
+>>>>>>> 8fb9ee8c5aaeb80aff05b875863033cfbb0d8127
